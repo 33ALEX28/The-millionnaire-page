@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(500, 1fr); /* 500 pikseli w jednym rzędzie */
+    gap: 1px;
+    max-width: 100%;
+    margin: 20px auto;
+    width: 90%;
+    justify-content: center;
+}
+
+.pixel {
+    width: 20px;
+    height: 20px;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
